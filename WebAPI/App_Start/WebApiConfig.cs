@@ -20,7 +20,6 @@ namespace WebAPI
             json.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.None;
             json.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
 
-
             // Configure Web API para usar solo la autenticación de token de portador.
             config.SuppressDefaultHostAuthentication();
             config.Filters.Add(new HostAuthenticationFilter(OAuthDefaults.AuthenticationType));
