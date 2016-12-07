@@ -73,5 +73,10 @@
     <Build Include="Tables\Matters.sql" />
     <Build Include="Tables\MatterTypes.sql" />
     <Build Include="Tables\Positions.sql" />
+    <Build Include="Tables\LimitedCompanies.sql" />
+    <Build Include="Tables\CompanyTypes.sql" />
+    <Build Include="Tables\CompanyActivities.sql" />
+    <Build Include="Tables\PracticeAreas.sql" />
+    <Build Include="Tables\PracticeAreaMembers.sql" />
   </ItemGroup>
 </Project>

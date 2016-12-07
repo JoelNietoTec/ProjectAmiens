@@ -14,4 +14,39 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="Email" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="c8a69079-a4a8-42ee-9078-d505da882047" ChangeDateTime="11/30/2016 16:21:14">
+    <Property Name="ElementName" Value="[dbo].[LimitedCompanies].[Jurisdic]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LimitedCompanies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="JurisdictionID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="15aa1fd2-6106-4bdb-b6f6-0cddae593a41" ChangeDateTime="11/30/2016 16:22:19">
+    <Property Name="ElementName" Value="[dbo].[LimitedCompanies].[Activity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LimitedCompanies]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ActivityID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6170490b-f80d-4b40-a115-bc8ad9016370" ChangeDateTime="12/02/2016 13:39:14">
+    <Property Name="ElementName" Value="[dbo].[Matters].[MatterTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Matters]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MatterTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="af29cf46-3559-409d-b36d-7e247e98e945" ChangeDateTime="12/02/2016 13:39:17">
+    <Property Name="ElementName" Value="[dbo].[Matters].[AttorneyId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Matters]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="AttorneyID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e05b3a00-2019-487e-9a35-c5ba609b88cc" ChangeDateTime="12/02/2016 14:03:09">
+    <Property Name="ElementName" Value="[dbo].[PracticeAreaMembers].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PracticeAreaMembers]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PracticeAreaID" />
+  </Operation>
 </Operations>
