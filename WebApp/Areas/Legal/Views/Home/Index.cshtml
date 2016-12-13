@@ -1,0 +1,29 @@
+<h3>Equipo Legal</h3>
+<div class="" ng-app="legalApp">
+    <ul class="nav nav-pills"role="tablist">
+        <li class="active" role="presentation">
+            <a href="#employees" aria-controls="employees" role="tab" data-toggle="tab">
+                Empleados
+            </a>
+        </li>
+        <li role="presentation">
+            <a href="#positions" aria-controls="positions" role="tab" data-toggle="tab">
+                Cargos
+            </a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="active tab-pane" id="employees" role="tabpanel">
+            @Html.Partial("~/Areas/Legal/Views/Employees/Index.cshtml")
+        </div>
+        <div class="active tab-pane" id="positions" role="tabpanel">
+            @Html.Partial("~/Areas/Legal/Views/Employees/Index.cshtml")
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <environment names="Development">
+        <script src="~/js/modules/legal/controllers/employees.js"></script>
+        <script src="~/js/modules/legal/controllers/positions.js"></script>
+    </environment>
+}
